@@ -14,7 +14,7 @@ The software used is [IAR Embedded Work Bench](https://www.iar.com/iar-embedded-
 
 # TIVA TM4C123GXL Launch Pad Programs
 
-## LED Blink [Video]
+## LED Blink [Video](https://youtu.be/A0ijtlBGvPw)
 The onboard LED cycles through R,G and B colors
 
 ## Switch + LED [Video1](https://youtu.be/PD2W7jYPpn8) [Video2](https://youtu.be/Izpt-WET_rg)
@@ -23,5 +23,6 @@ The two onboard switches are used to light up one of R,G and B LED. The Switch a
 ## 7 Segment Display (5611AS) [Video](https://youtu.be/ZtxzncycSjI)
 The program is a simple counter from 0-9 which is displayed on the 7 segment display.
 
-
+## Timers [Video](https://youtu.be/4cy1UF1q9_c)
+The program is used to configure the general purpose timer to be in periodic mode and count 1 second. After completion of 1 second, the state of the LED is toggled.
 
