@@ -24,5 +24,5 @@ The two onboard switches are used to light up one of R,G and B LED. The Switch a
 The program is a simple counter from 0-9 which is displayed on the 7 segment display.
 
 ## Timers [Video](https://youtu.be/4cy1UF1q9_c)
-The program is used to configure the general purpose timer to be in periodic mode and count 1 second. After completion of 1 second, the state of the LED is toggled.
+The program is used to configure the general purpose timer to be in periodic mode and count 1 second. After completion of 1 second, the state of the LED is toggled. The timeout can be checked by both polling and interrupts. For polling a specific bit in the register is continuously checked, while for interrupt, a custom interrupt handler function is added to take action on timeout.
 
